@@ -2,11 +2,8 @@ package com.semihbiygit.controller;
 
 import com.semihbiygit.config.DatabaseConnectionManager;
 import com.semihbiygit.model.User;
-import com.semihbiygit.model.Application;
-import com.semihbiygit.repository.ApplicationDAO;
 import com.semihbiygit.repository.UserDAO;
 import com.semihbiygit.service.UserService;
-import com.semihbiygit.service.ApplicationService;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -20,14 +17,12 @@ import java.util.List;
 public class UserController extends HttpServlet {
 
     private UserService userService;
-    private ApplicationService applicationService;
 
     @Override
     public void init() throws ServletException {
         super.init();
         Connection connection = DatabaseConnectionManager.getConnection();
         userService = new UserService(new UserDAO(connection));
-        applicationService = new ApplicationService(new ApplicationDAO(connection));
     }
 
     @Override
@@ -38,12 +33,7 @@ public class UserController extends HttpServlet {
         }
 
         switch (action) {
-            case "edit":
-                showUserForm(req, resp);
-                break;
-            default:
-                listUsers(req, resp);
-                break;
+            default -> listUsers(req, resp);
         }
     }
 
@@ -128,15 +118,6 @@ public class UserController extends HttpServlet {
                 .password(password)
                 .build());
         resp.sendRedirect("users");
-    }
-
-    private void showUserForm(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Long userId = Long.parseLong(req.getParameter("id"));
-        User user = userService.getUserById(userId);
-        List<Application> applicationList = applicationService.getAllApplications();
-        req.setAttribute("user", user);
-        req.setAttribute("applications", applicationList);
-        req.getRequestDispatcher("edit_user.jsp").forward(req, resp);
     }
 
     private void deleteUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

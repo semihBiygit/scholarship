@@ -73,7 +73,7 @@
                 <input type="text" id="lastName" name="lastName" required placeholder="Soyad">
             </div>
             <div class="form-group">
-                <input type="date" id="birthDate" name="birthDate" required placeholder="Doğum Tarihi">
+                <input type="text" id="birthDate" name="birthDate" required placeholder="Doğum Tarihi">
             </div>
             <div class="form-group">
                 <input type="text" id="universityName" name="universityName" required placeholder="Üniversite Adı">

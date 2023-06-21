@@ -9,39 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ed52d38-a8df-48be-994a-59efb0dfbbf3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/config/DatabaseConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/controller/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/model/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/repository/ApplicationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/repository/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/service/ApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/add_user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/create_application.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/my_applications.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view_application.jsp" afterDir="false" />
+    <list default="true" id="1ed52d38-a8df-48be-994a-59efb0dfbbf3" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semihbiygit/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semihbiygit/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/create_application.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/create_application.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,11 +271,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687201121260</updated>
-      <workItem from="1687201122646" duration="53491000" />
+      <workItem from="1687201122646" duration="53837000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1687305977819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687305977819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
